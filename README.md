@@ -47,6 +47,14 @@ Usage
 
 ### step 3 : Run XAMPP
 
+Run XAMPP sever and mount that memory 
+
+you should move the file TUD to server
+
+For example
+
+```mv ./TUD nfs://192.168.64.2/opt/lampp/htdocs```
+
 
 ### step 4 : Make database tables
 
