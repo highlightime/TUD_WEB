@@ -56,13 +56,29 @@ Enter phpmyadmin
 
 2. Make tables
 
+* member
+
+```DROP TABLE IF EXISTS `member`;```
+
+```CREATE TABLE `member` ( `id` varchar(45) NOT NULL, `pw` varchar(45) NOT NULL, `mail` varchar(30) NOT NULL, `addr` varchar(20) NOT NULL, `city` varchar(45) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
+
 * board
 
-* member
+```DROP TABLE IF EXISTS `board`;```
+
+```CREATE TABLE `board` ( `board_id` int(11) NOT NULL, `title` varchar(50) NOT NULL, `content` varchar(300) NOT NULL, `author` varchar(10) NOT NULL, `date` date NOT NULL, `hit` int(11) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
 
 * reply
 
+```DROP TABLE IF EXISTS `reply`;```
+
+```CREATE TABLE `reply` ( `reply_id` int(11) NOT NULL, `board_id` int(11) NOT NULL, `author` varchar(10) NOT NULL, `content` varchar(300) NOT NULL, `date` datetime NOT NULL DEFAULT current_timestamp() ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
+
 ### step 5 : Access to web page we made
+
+Type the web site 
+
+http://localhost:8080/TUD/public/
 
 Requirements
 =============
