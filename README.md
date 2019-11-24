@@ -19,21 +19,21 @@ Table of contents:
 
 Usage
 =============
-## step 1 : Download TUD file
+### step 1 : Download TUD file
 
 ```git clone https://github.com/yunobro/TUD_WEB```
 
-## step 2 : Add the file to access
+### step 2 : Add the file to access
 
 
 
-## step 3 : Run XAMPP
+### step 3 : Run XAMPP
 
 
-## step 4 : Make database tables
+### step 4 : Make database tables
 
 
-## step 5 : Access to web page we made
+### step 5 : Access to web page we made
 
 Requirements
 =============
