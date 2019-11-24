@@ -5,7 +5,7 @@ This is our pair **web** project that have some requirements.
 
 We made a web page for **selling second-hand items**.
 
-Loads of files and functions it can provide.
+Loads of files and functions it would provide.
 
 Table of contents:
 
