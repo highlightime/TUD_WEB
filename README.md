@@ -66,7 +66,7 @@ Usage
 
 ```DROP TABLE IF EXISTS `board`;```
 
-```CREATE TABLE `board` ( `board_id` int(11) NOT NULL, `title` varchar(50) NOT NULL, `content` varchar(300) NOT NULL, `author` varchar(10) NOT NULL, `date` date NOT NULL, `hit` int(11) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
+```CREATE TABLE `board` ( `board_id` int(11) NOT NULL, `title` varchar(50) NOT NULL, `content` varchar(300) NOT NULL, `author` varchar(10) NOT NULL, `date` date NOT NULL, `hit` int(11) NOT NULL, `file` varchar(100) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
 
 * reply
 
