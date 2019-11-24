@@ -25,7 +25,7 @@ Usage
 
 ### step 2 : Add two files to access
 
-1. TUD/public/.htaccess 
+#### 1.TUD/public/.htaccess 
 
 ```Options -Multiviews``` 
 
@@ -39,7 +39,7 @@ Usage
 
 ```RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]```
 
-2. TUD/app/.htaccess
+#### 2.TUD/app/.htaccess
 
 ```Options -Indexes```
 
@@ -50,11 +50,11 @@ Usage
 
 ### step 4 : Make database tables
 
-Enter phpmyadmin
+#### 1.Enter phpmyadmin
 
-#### 1. Make schema named **Second_market**
+#### 2.Make schema named **Second_market**
 
-#### 2. Make tables
+#### 3.Make tables
 
 * member
 
