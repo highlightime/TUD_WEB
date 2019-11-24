@@ -49,6 +49,9 @@
                 </script>
                 <?php
             }
-
+        }
+        public function download($board_id){
+            $m_item = $this->model('m_item');
+            $m_item->download($board_id);
         }
     }

@@ -2,7 +2,7 @@
     class m_Items{
         private $connect;
         private $search_word;
-        
+
         public function __construct()
         {
             $this->connect = mysqli_connect('localhost', 'root', '', 'Second_market') or die ("connect fail");
@@ -12,7 +12,7 @@
             $result = $this->connect->query($query);
             $total = mysqli_num_rows($result);
             $rows = array();
-            
+
             if($result){
                 for($i=0; $i<$total; $i++){
                     array_push($rows, mysqli_fetch_assoc($result));
@@ -23,4 +23,4 @@
             }
             $this->connect->close();
         }
-        }
+    }

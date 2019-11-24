@@ -100,6 +100,7 @@
                     <?=$data['content']?>
                 </td>
             </tr>
+            <tr><td><button onclick="location.href = '../download/<?=$data['board_id']?>'">DOWNLOAD</button></td></tr>
         </table>
         <!-- item modify & delete -->
         <div class="view_btn">

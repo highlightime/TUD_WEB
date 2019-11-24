@@ -26,7 +26,4 @@
                 $this->index();
             }
         }
-        public function  update(){
-
-        }
     }
