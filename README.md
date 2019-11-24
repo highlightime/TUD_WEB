@@ -52,9 +52,9 @@ Usage
 
 Enter phpmyadmin
 
-####1. Make schema named **Second_market**
+#### 1. Make schema named **Second_market**
 
-####2. Make tables
+#### 2. Make tables
 
 * member
 
