@@ -56,11 +56,11 @@ Enter phpmyadmin
 
 2. Make tables
 
-*board
+* board
 
-*member
+* member
 
-*reply
+* reply
 
 ### step 5 : Access to web page we made
 
