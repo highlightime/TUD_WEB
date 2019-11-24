@@ -23,7 +23,25 @@ Usage
 
 ```git clone https://github.com/yunobro/TUD_WEB```
 
-### step 2 : Add the file to access
+### step 2 : Add two files to access
+
+1. TUD/public/.htaccess 
+
+```Options -Multiviews``` 
+
+```RewriteEngine on```
+
+```RewriteBase /TUD/public```
+
+```RewriteCond %{REQUEST_FILENAME} !-d```
+
+```RewriteCond %{REQUEST_FILENAME} !-f```
+
+```RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]```
+
+2. TUD/app/.htaccess
+
+```Options -Indexes```
 
 
 
@@ -32,6 +50,17 @@ Usage
 
 ### step 4 : Make database tables
 
+Enter phpmyadmin
+
+1. Make schema named **Second_market**
+
+2. Make tables
+
+*board
+
+*member
+
+*reply
 
 ### step 5 : Access to web page we made
 
