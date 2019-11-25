@@ -18,8 +18,6 @@
             $this->author = $_SESSION['id'];
             $this->date = date('Y-m-d');
 
-            unset($_POST['title']);
-            unset($_POST['content']);
 
             $this->file_name = basename($_FILES["file"]["name"]);
             $this->target_file = "../public/files/" . $this->file_name;
@@ -73,9 +71,6 @@
             $this->title = $_POST['title'];
             $this->content = $_POST['content'];
             $this->date = date('Y-m-d');
-
-            unset($_POST['title']);
-            unset($_POST['content']);
 
             $query = "update board set title = '$this->title', content = '$this->content', date = '$this->date' where board_id = '$board_id'";
 

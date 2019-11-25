@@ -8,8 +8,6 @@
         }
 
         public function getItem($board_id){
-
-
             $query = "select * from board where board_id = $board_id";
 
             $result = $this->connect->query($query);

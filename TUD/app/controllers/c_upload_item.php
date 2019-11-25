@@ -19,6 +19,7 @@
                     ?>
                     <script>
                         alert("FAILED");
+                        location.href = '../';s
                     </script>
                     <?php
                     $this->view('index');
@@ -43,7 +44,7 @@
                     ?>
                     <script>
                         alert("UPDATED!");
-                        location.href = '../../c_item/getInfo/<?=$board_id?>';
+                        location.href = '../../c_item/getItem/<?=$board_id?>';
                     </script>
                     <?php
                 } else {

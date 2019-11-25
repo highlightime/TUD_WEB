@@ -21,7 +21,7 @@
 
         public function modify($board_id){
             $m_item = $this->model('m_item');
-            $result = $m_item->getInfo($board_id);
+            $result = $m_item->getItem($board_id);
 
             $this->view('v_upload_item',
                 ['board_id' => $board_id,
